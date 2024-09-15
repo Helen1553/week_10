@@ -1,0 +1,32 @@
+.title{
+    text-align: center;
+}
+
+.places{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+
+    .photo1{
+        width: 50vw;
+        height: 50vh;
+        border-radius: 10px;
+    }
+    
+    .buttons{
+        display: flex;
+        justify-content: center;
+        gap: 4rem;
+        width: 100%;
+
+        .button1, .button2{
+            background-color: rgb(233, 208, 110);
+            width: 100px;
+            height: 50px;
+            cursor: pointer;
+            border-radius: 10px;
+            border: solid 1px  rgb(188, 168, 89);
+        }
+    }
+}
